@@ -24,11 +24,11 @@ export default function Hero({}: Props) {
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 - pb-2 tracking-[15px]'>Mobile developer</h2>
             <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
-                <span>{text}</span>
+                <span className='text-base md:text-4xl'>{text}</span>
                 <Cursor cursorColor='#b00000'/>
             </h1>
 
-            <div className='pt-5'>
+            <div className='pt-5 sm:grid-cols-2'>
                 <Link href='#about'>
                 <button className='heroButton'>About</button>
                 </Link>

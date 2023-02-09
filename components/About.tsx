@@ -32,20 +32,17 @@ export default class About extends Component<Props, State> {
                 once: true
             }}
             src='https://ca.slack-edge.com/T029A0L8Y-U01UBQM7X6W-aab125c549f3-512'
-            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'/>
+            className='mb-0 md:mb-0 mt-32 md:mt-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'/>
 
-            <div className='space-y-10 px-0 md:px-10'>
-                <h4 className='text-4xl font-semibold'>
+            <div className='space-y-10 px-0 md:px-10 mt-2 md:mt-0 text-center'>
+                <h4 className='text-xl md:text-4xl font-semibold'>
                     Here is a <span className='underline decoration-[#990303]'>litle</span> background
                 </h4>
-                <p className='text-base'>
-                I'm Mauricio, although you also know me as Mauro. I am a programmer focused on native mobile applications, 
-                both Android and iOS, although honestly I like iOS more 🍎. I've been working with Kotlin for Android for 
-                4 years and 2 years working with Swift for iOS, I also have knowledge in other areas like React, Java for 
-                backend with SpringBoot, C# and a bit of Python 🐍. I love working in a team and learning from the best, 
-                as well as helping those who are learning what I already know. My biggest goal as a programmer is to be 
-                able to make world-class applications, things that change the world and radically innovate. Hope to see 
-                you soon 😉.
+                <p className='text-sm md:text-base text-justify md:text-center'>
+                I'm Mauricio. I am a programmer focused on mobile applications Android and iOS, 
+                although honestly I like iOS more 🍎. I also have knowledge in other areas like React, Java with 
+                SpringBoot, C# and a bit of Python 🐍. My biggest goal as a programmer is to be able to make world-class applications, 
+                things that change the world and radically innovate. Hope to see you soon 😉.
                 </p>
             </div>
         </div>
